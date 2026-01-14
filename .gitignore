@@ -8,6 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+# Prevents cross-OS dependencies problems
+uv.lock
 
 # Ignore generated *.docker-compose.yml
 *-cluster.docker-compose.yml
