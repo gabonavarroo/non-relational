@@ -45,11 +45,12 @@ spark/mount/local-warehouse
 spark/mount/spark_job_env.tar.gz
 
 # mongodb data
-mongodb/mount/mongo-keyfile
-mongodb/mount/mongodb-node-*
+mongodb/config/*
+mongodb/mount/*
+mongodb/mongo-keyfile
 
 # redis data
 redis/mount/redis-node-*
 
 # opensearch data
-opensearch/mount/opensearch-node-*
+opensearch/mount/*
